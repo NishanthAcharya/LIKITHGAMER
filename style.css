@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(165deg,aqua,green,orange);
+}
+.pic {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 38vh;
+    left: 17%;
+    border-radius: 55px;
+    box-shadow: 0 0 60px red;
+}
+.btn {
+    position:absolute;
+    top: 60vh;
+    left: 36%;
+    border: 7px indigo inset;
+    padding: 6px;
+    border-radius: 55px;
+    text-decoration:none;
+}
+.div1 {
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(165deg,aqua,orange,pink)
+}
+.head {
+    position: absolute;
+    top: 3vh;
+    text-align: center;
+    left: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:35vh ;
+    left: 35%;
+    border: 8px,red,solid;
+    height: 35px;
+    width: 40%;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: aqua;
+}
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:45vh ;
+    left: 35%;
+    border: 8px,red,solid;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: aqua;
+    padding: 2px;
+}
+.btn3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:55vh ;
+    left: 35%;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: aqua;
+    border: 8px,red,solid;
+    padding: 2px;
+}
+.aboutdiv {
+    height: 148vh;
+    width: 115%;
+    background: linear-gradient(165deg,greenyellow,orange,pink);
+    
+}
+.pic1 {
+    position:absolute;
+    top: 35px;
+    left:25%;
+    height:190px;
+}
+.a1 {
+    position: absolute;
+    top:240px;
+    margin-left: 25px;
+    text-decoration: none;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vh;
+}
+.pic2 {
+    position:absolute;
+    top: 310px;
+    left: 5%;
+    height: 190px;
+}
+.a2 {
+    position: absolute;
+    top:515px;
+    left:20px;
+    /* margin-left: 25px; */
+    text-decoration: none;
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vh;
+}
+.aboutdiv{
+    display: flex;
+    flex-direction: column;
+}
+#features {
+    position: absolute;
+    top: 85vh;
+    left: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vh;
+    text-align:justify;
+}
+#information {
+    background: linear-gradient(100deg,red,aqua,orange,pink);
+    height: 48vh;
+    width: 115%;
+    position: absolute;
+    top: 150vh;
+    left: 0vh;
+    text-indent: 4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vh;
+    text-align: justify;
+    padding: 5vh;
+}
+.review {
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: cadetblue;
+}
+.img01 {
+    height: 40vh;
+    padding: 5vh;
+    margin-left:4vh; 
+    
+}
+.img02 {
+    height: 40vh;
+    width: 49vh;
+    padding: 4vh;
+    margin-left: 4px;
+
+}
+.img03 {
+    height: 44vh;
+    width: 49vh;
+    padding: 4vh;
+}
+.img04 {
+    height: 44vh;
+    width: 49vh;
+    padding: 4vh;
+}
+.img05 {
+    height: 32vh;
+    width: 49vh;
+    padding: 4vh;
+}
+.name {
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: blueviolet;
+    border-radius: 55vh;
+}
+.abt {
+    text-align: center;
+    padding-top: 8px;
+    font-size:4vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:chocolate;
+}
+.thought{
+    
+    padding-top: 5vh;
+    padding-left: 2vh;
+    padding-right: 4vh;
+    text-align: justify;
+    font-size: 3vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-top: 12vh; */
+}
+.abt2 {
+    text-align: center;
+    font-size: 3vh;
+    padding: 3vh;
+    color:chocolate;
+
+ }
+ .qr {
+    height:35vh;
+    margin-left: 5vh;
+    box-shadow: 0 0 27px red black;
+ }
+ .abt3 {
+    text-align: center;
+    font-size: 3vh;
+    padding: 3vh;
+    color:chocolate;
+
+ }
+ .anchor {
+    text-decoration: none;
+    margin-left: 5vh;
+ }
